@@ -4,7 +4,7 @@ category: "spring"
 slug: "spring-aop-proxy"
 num: 5
 date: 2026-05-16
-description: "@RestControllerAdvice를 정리하다가 이름의 \"advice\" 부분이 걸렸다. 이게 AOP인가, 아니면 이름만 같은 다른 것인가. 답을 잡으려고 Spring AOP의 프록시 동작까지 거슬러 따라간 정리. @Transactional이 실제로 어떻게 메서드 호출을 가로채는지, JDK Dynamic Proxy와 CGLIB이 어떻게 다른지, self-invocation이 왜 안 먹는지, 그리고 @ControllerAdvice는 왜 프록시 AOP가 아닌지를 한 호흡으로 푼다."
+description: "@ControllerAdvice의 advice가 AOP인지 확인하려다 프록시까지 따라갔다. JDK 프록시와 CGLIB, self-invocation을 푼 정리."
 tags: ["스프링", "AOP", "프록시", "@Transactional", "@ControllerAdvice"]
 ---
 

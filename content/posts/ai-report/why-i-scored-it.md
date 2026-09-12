@@ -4,7 +4,7 @@ category: "ai-report"
 slug: "why-i-scored-it"
 num: 1
 date: 2026-07-07
-description: "다들 AI를 잘 쓰는 게 중요하다고 말하는데 정작 '잘 쓴다'는 기준이 없었다. 대화 기록 .jsonl을 로컬에서 분석해 점수를 매기는 데스크탑 앱을 만들기 시작한 이야기. AI 리포트 제작기 1편."
+description: "AI를 잘 쓴다는 기준이 없어서, 대화 기록 .jsonl을 로컬에서 분석해 점수를 매기는 앱을 만들었다. AI 리포트 제작기 1편."
 tags: ["AI 리포트", "Claude", "Claude Code", "데스크톱 앱", "Electron", "제작기"]
 ---
 

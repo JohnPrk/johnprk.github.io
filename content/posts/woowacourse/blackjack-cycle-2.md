@@ -5,7 +5,7 @@ slug: "mission-3"
 num: 3
 thumb: "/images/wooteco/mission-3.png"
 date: 2026-03-30
-description: "베팅 요구사항이 들어오며 드러난 책임 경계, 값 객체, 새로운 도메인의 도출."
+description: "블랙잭 사이클2. 베팅 요구사항이 들어오며 드러난 책임 경계와 값 객체, 새 도메인의 도출."
 tags: ["우테코", "블랙잭", "객체지향", "DDD"]
 ---
 

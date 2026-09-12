@@ -5,7 +5,7 @@ slug: "mission-2"
 num: 2
 thumb: "/images/wooteco/mission-2.png"
 date: 2026-03-23
-description: "페어와 AI 중심으로 작성한 첫 PR. 쉽게 배운 건 쉽게 잊힌다는 리뷰어의 말."
+description: "블랙잭 사이클1. 페어와 AI로 짠 첫 PR, 그리고 쉽게 배운 건 쉽게 잊힌다는 리뷰어의 말."
 tags: ["우테코", "블랙잭", "객체지향"]
 ---
 

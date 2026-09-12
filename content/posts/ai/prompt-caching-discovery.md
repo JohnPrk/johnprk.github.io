@@ -4,7 +4,7 @@ category: "ai"
 slug: "prompt-caching-discovery"
 num: 2
 date: 2026-04-27
-description: "레벨1 학습법 회고 질문에 답하려고 PR 4개·블로그 4편을 Claude Code에 통째로 던졌다. 끝나고 jsonl을 까보다 cache_write 25만 토큰을 발견했고, 공식 문서를 같이 보면서 prompt caching이 실제로 어떻게 작동하는지 정리한 기록."
+description: "회고 자료를 통째로 던진 뒤 jsonl에서 cache_write 25만 토큰을 발견했다. prompt caching이 실제로 어떻게 작동하는지 따라간 기록."
 tags: ["AI", "Claude", "prompt caching", "토큰"]
 ---
 

@@ -4,7 +4,7 @@ category: "wooteco"
 slug: "mission-8"
 num: 8
 date: 2026-06-10
-description: "API 명세를 직접 정하고 근거를 남겨야 했던 미션. 공식 문서를 근거로 설계하고 물었지만, 웨지의 'DDD를 왜 적용해야 하나요?'라는 물음 앞에서 형태만 DDD였던 코드가 드러났다. DAO를 걷어내고 객체에게 묻기까지, 그리고 아직 못 푼 REST까지의 기록."
+description: "방탈출 사용자 예약 사이클1. DDD를 왜 적용하냐는 물음 앞에서 형태만 DDD였던 코드가 드러났다."
 tags: ["우테코", "방탈출", "회고", "DDD", "REST", "AI"]
 ---
 

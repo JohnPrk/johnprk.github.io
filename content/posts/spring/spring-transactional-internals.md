@@ -4,7 +4,7 @@ category: "spring"
 slug: "spring-transactional-internals"
 num: 10
 date: 2026-05-18
-description: "우테코 룸이스케이프 미션에서 서비스에 @Transactional을 막 적용한 직후, 컨테이너 빈을 꺼냈더니 $SpringCGLIB$0이 붙어 있었다. 거기서부터 AOP가 푸는 자리, 프록시의 정체, TransactionInterceptor와 PlatformTransactionManager의 JavaDoc, ThreadLocal이 한 트랜잭션을 묶는 방식, PROPAGATION의 규칙, self-invocation이 깨지는 자리, 그리고 가장 큰 오해 한 가지가 풀렸다. Spring은 내 쿼리를 기억하지 않는다. 롤백은 DB의 책임이고 Spring은 시점만 결정한다."
+description: "@Transactional을 붙인 빈에 $SpringCGLIB$0이 붙어 있었다. 프록시와 ThreadLocal을 따라가 롤백은 DB의 책임임을 확인했다."
 tags: ["스프링", "@Transactional", "AOP", "프록시", "TransactionInterceptor", "PlatformTransactionManager", "ThreadLocal", "Propagation", "트랜잭션", "우테코"]
 ---
 

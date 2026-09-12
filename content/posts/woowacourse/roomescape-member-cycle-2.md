@@ -4,7 +4,7 @@ category: "wooteco"
 slug: "mission-9"
 num: 9
 date: 2026-06-15
-description: "예약 변경·취소에 더해 예외 처리가 중심이었던 미션. RFC 9457 ProblemDetail과 상태 코드로 에러의 표준을 잡고, 이름 기반 본인 확인을 404에서 401로 바로잡았다. 트레이드오프를 따지기보다 명확한 표준을 따른 사이클, 그리고 직접 안 해봐서 못 느꼈을 것에 대한 기록."
+description: "방탈출 예약 변경과 취소 사이클2. ProblemDetail과 상태 코드로 에러의 표준을 잡고 401로 바로잡았다."
 tags: ["우테코", "방탈출", "회고", "예외처리", "ProblemDetail", "상태코드", "AI"]
 ---
 

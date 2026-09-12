@@ -4,7 +4,7 @@ category: "spring"
 slug: "response-entity-exception-handler-extension"
 num: 3
 date: 2026-05-16
-description: "사이클2 미션을 제출하고 다른 크루의 PR을 둘러보다 만난 패턴. 내 GlobalExceptionHandler에서 500으로 새던 405/415/타입 불일치 케이스를 정정하고, 핸들러마다 반복되던 type/title/instance/로깅 후처리를 handleExceptionInternal 한 곳으로 모았다. 코드 줄 수는 비슷한데 응집도가 다르게 느껴진 이유를 정리한다."
+description: "500으로 새던 405와 415를 정정하고, 핸들러마다 반복되던 후처리를 handleExceptionInternal 한 곳으로 모았다."
 tags: ["스프링", "예외 처리", "ProblemDetail", "ResponseEntityExceptionHandler", "우테코"]
 ---
 

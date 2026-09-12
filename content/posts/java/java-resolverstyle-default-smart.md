@@ -4,7 +4,7 @@ category: "java"
 slug: "java-resolverstyle-default-smart"
 num: 1
 date: 2026-05-18
-description: "DateTimeFormatter.ofPattern의 기본 ResolverStyle은 SMART다. 잘못된 날짜를 조용히 보정한다. STRICT로 거부하려면 패턴도 uuuu로 바꿔야 한다."
+description: "DateTimeFormatter의 기본 ResolverStyle은 SMART여서 잘못된 날짜를 조용히 보정한다. 거부하려면 STRICT와 uuuu가 같이 필요하다."
 tags: ["java", "DateTimeFormatter", "ResolverStyle", "우테코"]
 ---
 

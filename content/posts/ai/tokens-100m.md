@@ -4,7 +4,7 @@ category: "ai"
 slug: "tokens-100m"
 num: 1
 date: 2026-04-25
-description: "회고 블로그 4편 쓰는 동안 Claude·Gemini와 토큰 1억 개를 썼다. audit.jsonl을 까서 본 진짜 내역과, 처음 Claude를 쓰려는 사람에게 남기는 프롬프트 가이드."
+description: "회고 블로그 4편을 쓰는 동안 토큰 1억 개를 썼다. audit.jsonl로 본 진짜 내역과 프롬프트 가이드."
 tags: ["AI", "Claude", "토큰", "회고", "프롬프트"]
 ---
 

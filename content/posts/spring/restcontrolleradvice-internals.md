@@ -4,7 +4,7 @@ category: "spring"
 slug: "restcontrolleradvice-internals"
 num: 4
 date: 2026-05-16
-description: "전역 예외 처리 클래스 맨 위에 무의식적으로 붙이던 @RestControllerAdvice. ResponseEntityExceptionHandler 글을 정리하다가 \"이 어노테이션이 정확히 무슨 일을 하지\"라는 질문이 남았다. @ControllerAdvice의 등장 배경, @RestControllerAdvice가 한 줄 더 가진 의미, @ResponseBody가 내부에서 하는 일, 그리고 @Component를 안 붙였는데 빈으로 등록되는 메커니즘까지 따라간 노트."
+description: "무의식적으로 붙이던 @RestControllerAdvice가 정확히 무슨 일을 하는지, @ResponseBody와 빈 등록까지 따라간 노트."
 tags: ["스프링", "예외 처리", "@ControllerAdvice", "@ResponseBody", "Bean 등록", "우테코"]
 ---
 

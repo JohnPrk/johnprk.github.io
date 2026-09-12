@@ -4,7 +4,7 @@ category: "spring"
 slug: "global-exception-handler-anatomy"
 num: 7
 date: 2026-05-17
-description: "extends ResponseEntityExceptionHandler 패턴까지 들인 다음에도 내 GlobalExceptionHandler에는 헬퍼 두 개의 책임이 묘하게 겹쳤고 slug와 title 매직 스트링이 흩어져 있었다. ProblemType enum으로 짝을 단일화하고 applyType을 추출해 두 갈래 경로의 공통 후처리를 한 곳에 모은 결과를 정리한다."
+description: "핸들러 두 개의 책임이 겹치고 매직 스트링이 흩어져 있었다. ProblemType enum으로 짝을 묶고 후처리를 한 곳에 모았다."
 tags: ["스프링", "예외 처리", "ProblemDetail", "ProblemType", "우테코"]
 ---
 

@@ -4,7 +4,7 @@ category: "spring"
 slug: "repository-dao-aggregate-root"
 num: 2
 date: 2026-05-09
-description: "직전 글에서 \"어노테이션의 DDD 인용은 사후, 3계층은 J2EE 흐름의 관례화\"라는 결론을 잡고 나니, 막상 PR 코드를 어떻게 고쳐야 할지가 새로운 막막함이었다. \"DAO는 테이블, Repository는 도메인이라고 내가 정하고 쓰자\"는 본능적인 안에서 출발해 — Aggregate Root 룰과 도메인 협력 모델을 만나 코드를 다시 짜기까지의 기록."
+description: "DAO는 테이블, Repository는 도메인이라고 정하고 출발해서, Aggregate Root와 도메인 협력으로 코드를 다시 짠 기록."
 tags: ["스프링", "DDD", "Repository", "Aggregate", "객체지향", "우테코"]
 ---
 

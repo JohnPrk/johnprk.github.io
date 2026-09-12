@@ -4,7 +4,7 @@ category: "dev"
 slug: "innodb-record-anatomy"
 num: 2
 date: 2026-07-29
-description: "페이지는 16KB로 고정인데 레코드는 가변이다. 그러면 한 레코드의 시작과 끝은 무엇이 알려주나. .ibd 파일을 직접 덤프해서 바이트를 확인하고, 그 위에서 INSERT와 DELETE와 UPDATE가 무엇을 하는지까지 따라간 기록."
+description: "페이지는 16KB 고정인데 레코드는 가변이다. .ibd 파일을 직접 덤프해 한 레코드의 시작과 끝을 확인한 기록."
 tags: ["MySQL", "InnoDB", "데이터베이스", "B+Tree", "레코드"]
 ---
 

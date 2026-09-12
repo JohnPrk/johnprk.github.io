@@ -4,7 +4,7 @@ category: "spring"
 slug: "duplicate-key-exception-translation"
 num: 13
 date: 2026-05-30
-description: "우테코 룸이스케이프 대기 미션에서 중복 대기 신청을 막으려 reservation_waiting에 UNIQUE 제약 한 줄을 걸고, 충돌 시 DuplicateKeyException을 409로 매핑했다. 프로덕션 코드에서 실제로 바뀐 건 DDL 한 줄과 예외를 상태 코드로 라우팅한 핸들러뿐, 에러 코드를 보거나 SQLState를 파싱하는 코드는 한 줄도 없었다. 그런데 DuplicateKeyException이라는 정확한 타입이 이미 와 있었다. 이게 어디서 오는지 따라가다, 흔히 말하는 sql-error-codes.xml이 내 앱에서는 끼어들지도 않는다는 걸 실측으로 확인했다. Spring 6.0부터 기본 번역기가 SQLExceptionSubclassTranslator로 바뀐 자리, JDBC 4 표준 예외 서브클래스가 실제로 번역을 맡는 경로, 그리고 H2의 23505와 MySQL의 1062가 같은 예외로 수렴하는 두 겹의 이유까지 정리했다."
+description: "UNIQUE 제약 한 줄만 걸었는데 DuplicateKeyException이 정확한 타입으로 와 있었다. 누가 번역하는지 따라간 기록."
 tags: ["스프링", "DuplicateKeyException", "SQLException", "예외 변환", "JdbcTemplate", "DataAccessException", "H2", "MySQL", "JDBC", "우테코"]
 ---
 

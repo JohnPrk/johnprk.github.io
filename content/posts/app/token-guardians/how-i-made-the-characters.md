@@ -4,7 +4,7 @@ category: "app"
 slug: "token-guardians/how-i-made-the-characters"
 num: 2
 date: 2026-06-30
-description: "토큰 가디언즈 캐릭터를 제미나이로 만들며 겪은 일관성 문제와, 약 280번의 시도 끝에 알아낸 프롬프트 요령. 토큰 지키미 제작기 2편."
+description: "캐릭터를 제미나이로 만들며 부딪힌 건 그림 실력이 아니라 일관성이었다. 토큰 지키미 제작기 2편."
 tags: ["토큰 지키미", "제작기", "Gemini", "AI 이미지", "프롬프트", "캐릭터"]
 ---
 

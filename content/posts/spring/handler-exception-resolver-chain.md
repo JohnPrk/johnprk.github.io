@@ -4,7 +4,7 @@ category: "spring"
 slug: "handler-exception-resolver-chain"
 num: 6
 date: 2026-05-16
-description: "@ExceptionHandler는 어떻게 컨트롤러 예외를 잡는가. @ControllerAdvice의 핸들러와 컨트롤러 내부 핸들러 중 어느 쪽이 우선인가. @ResponseStatus와 @ExceptionHandler가 같은 예외에 걸리면 누가 이기는가. DispatcherServlet의 예외 처리 진입점부터 HandlerExceptionResolver 체인까지, 예외가 던져진 순간 Spring 내부에서 무슨 일이 일어나는지 따라간 노트."
+description: "@ExceptionHandler는 왜 항상 먼저 잡는가. HandlerExceptionResolver 체인까지 따라간 노트."
 tags: ["스프링", "예외 처리", "DispatcherServlet", "HandlerExceptionResolver"]
 ---
 

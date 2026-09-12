@@ -5,7 +5,7 @@ slug: "mission-5"
 num: 5
 thumb: "/images/wooteco/mission-5.png"
 date: 2026-04-21
-description: "혼자 마주한 두 번째 사이클. 궁성 이동, 게임 종료, DB 영속화 그리고 리뷰로 드러난 설계 공백."
+description: "장기 사이클2. 혼자 마주한 궁성 이동과 게임 종료, DB 영속화, 그리고 리뷰로 드러난 설계 공백."
 tags: ["우테코", "장기", "객체지향", "DB"]
 ---
 

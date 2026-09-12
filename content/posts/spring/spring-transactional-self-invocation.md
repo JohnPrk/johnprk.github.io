@@ -4,7 +4,7 @@ category: "spring"
 slug: "spring-transactional-self-invocation"
 num: 9
 date: 2026-05-18
-description: "Spring @Transactional은 프록시 기반이라 외부에서 들어온 호출만 가로챈다. 같은 객체 내부에서 this.method()로 부른 호출은 프록시를 거치지 않아 트랜잭션 propagation이 무시된다. 실측으로 확인하고 @Lazy self 주입과 ApplicationContext lookup으로 우회하는 방법을 정리한다."
+description: "@Transactional은 프록시 기반이라 같은 클래스 안의 this 호출은 가로채지 못한다. 실측으로 확인하고 우회법까지 정리했다."
 tags: ["spring", "@Transactional", "AOP", "프록시", "우테코"]
 ---
 

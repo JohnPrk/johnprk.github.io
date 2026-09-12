@@ -4,7 +4,7 @@ category: "app"
 slug: "token-guardians/rebuilt-for-windows"
 num: 3
 date: 2026-07-02
-description: "맥에서는 잘 돌아가던 토큰 지키미를, 윈도우 쓰는 크루를 위해 넓히려다 흰 화면과 먹통에 부딪혔다. 윈도우가 없어서 캐모의 노트북을 빌려가며 헤매고, 결국 Tauri에서 Electron으로 프레임워크를 통째로 옮긴 이야기. 토큰 지키미 제작기 3편."
+description: "맥에서 잘 돌던 앱이 윈도우에서 흰 화면만 떴다. Tauri에서 Electron으로 통째로 옮긴 기록. 토큰 지키미 제작기 3편."
 tags: ["토큰 지키미", "제작기", "Tauri", "Electron", "윈도우", "Claude", "데스크톱 앱"]
 ---
 

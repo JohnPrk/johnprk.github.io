@@ -4,7 +4,7 @@ category: "spring"
 slug: "spring-annotation-ddd-myth"
 num: 1
 date: 2026-05-09
-description: "코치는 \"스프링은 DDD에서 영감 받았다\"고 했고, 나는 그 말을 곧이곧대로 적용해 Repository와 DAO를 엄밀하게 분리한 PR을 제출했다. 리뷰어 웨지는 \"DDD를 왜 적용하나요?\"라고 되물었다. Spring Javadoc을 버전별로 거슬러 올라가니, 어노테이션의 DDD 인용은 도입 5년 뒤에 사후 추가된 것이었고, 3계층 구조의 진짜 출처는 DDD가 아닌 곳에 있었다."
+description: "스프링이 DDD에서 영감을 받았다는 말을 확인하려고 @Repository Javadoc을 11년 거슬러 읽었다. 인용은 5년 뒤 사후 추가였다."
 tags: ["스프링", "DDD", "레이어드 아키텍처", "Repository", "우테코"]
 ---
 

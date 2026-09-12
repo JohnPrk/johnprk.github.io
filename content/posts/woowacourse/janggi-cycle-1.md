@@ -5,7 +5,7 @@ slug: "mission-4"
 num: 4
 thumb: "/images/wooteco/mission-4.png"
 date: 2026-04-16
-description: "장기 미션 첫 사이클 — AI 배제하고 페어와 직접 부딪혀 본 객체지향."
+description: "장기 사이클1. AI를 배제하고 페어와 직접 부딪혀 본 객체지향."
 tags: ["우테코", "장기", "객체지향"]
 ---
 

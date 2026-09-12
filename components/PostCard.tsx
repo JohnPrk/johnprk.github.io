@@ -31,7 +31,7 @@ export default function PostCard({
           {post.title}
         </h3>
         {post.description ? (
-          <p className="line-clamp-2 text-[13px] leading-relaxed text-ink-muted">
+          <p className="line-clamp-3 text-[13px] leading-relaxed text-ink-muted lg:line-clamp-2">
             {post.description}
           </p>
         ) : null}

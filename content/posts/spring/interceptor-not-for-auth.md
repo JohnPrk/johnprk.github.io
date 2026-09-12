@@ -4,7 +4,7 @@ category: "spring"
 slug: "interceptor-not-for-auth"
 num: 11
 date: 2026-05-20
-description: "우테코 방탈출 미션은 Spring Security 없이 Interceptor와 ArgumentResolver로 인증/인가를 직접 짜라고 가르친다. 그 톤대로 AuthInterceptor를 다 짠 뒤, 인터셉터를 더 깊게 이해하려고 Spring 공식 문서를 열었다. 두 페이지에 같은 경고 한 줄이 박혀 있었다. Interceptors are not ideally suited as a security layer. 그 한 줄을 따라가다 보니 인터셉터의 진짜 자리, Acegi 시절부터 다른 곳에 있던 Spring Security의 자리, 그리고 Security가 다른 점이 차례로 풀렸다."
+description: "인터셉터로 인증을 다 짠 뒤, 공식 문서에서 인터셉터는 보안 계층에 적합하지 않다는 한 줄을 봤다."
 tags: ["스프링", "인터셉터", "인증", "인가", "스프링시큐리티", "필터", "HandlerInterceptor", "우테코"]
 ---
 

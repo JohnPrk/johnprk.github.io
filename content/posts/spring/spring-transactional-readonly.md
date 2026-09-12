@@ -4,7 +4,7 @@ category: "spring"
 slug: "spring-transactional-readonly"
 num: 16
 date: 2026-06-06
-description: "우테코 룸이스케이프 미션에서 서비스에 @Transactional(readOnly = true)를 클래스 레벨로 깔아두고 있었다. 지난번 @Transactional 한 줄을 따라가며 프록시와 ThreadLocal, 롤백이 DB의 책임이라는 것까지 본 뒤였는데, readOnly 옵션 하나는 조회 전용이라는 막연한 이해로만 남아 있었다. 정말 select 말고 다른 쿼리를 막는지 TransactionTemplate으로 직접 찍어보니, isCurrentTransactionReadOnly는 true인데 Connection.isReadOnly는 false였고 readOnly 트랜잭션 안의 INSERT가 그대로 커밋됐다. 이 모순처럼 보이는 결과를 Spring 6.2.5와 H2 2.3.232 소스까지 따라가며 풀었다. readOnly는 강제가 아니라 ThreadLocal과 JDBC 커넥션, DB 엔진으로 흘려보내는 힌트였고, 종착지인 H2는 그 힌트를 'readOnly ignored'라는 주석과 함께 버리고 있었다."
+description: "readOnly 트랜잭션 안의 INSERT가 그대로 커밋됐다. readOnly는 강제가 아니라 힌트이고, H2는 그 힌트를 버린다."
 tags: ["스프링", "@Transactional", "readOnly", "트랜잭션", "JDBC", "Hibernate", "H2", "PlatformTransactionManager", "우테코"]
 ---
 

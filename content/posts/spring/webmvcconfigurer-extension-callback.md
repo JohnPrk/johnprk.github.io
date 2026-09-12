@@ -4,7 +4,7 @@ category: "spring"
 slug: "webmvcconfigurer-extension-callback"
 num: 15
 date: 2026-06-01
-description: "리뷰어가 WebConfig를 가리키며 이 클래스의 역할이 무엇이고 WebMvcConfigurer가 무엇이냐고 물었다. 내 WebConfig는 화면 매핑 한 메서드뿐이라 정적 화면 라우팅 설정이라고 답하려 했는데, 그러면 왜 그게 인터페이스인지, 왜 인터셉터와 아규먼트 리졸버까지 같은 인터페이스 한 곳에 들어가는지가 설명되지 않았다. WebMvcConfigurer의 Javadoc과 스프링 부트의 자동설정 관계를 따라가니, 이건 거대한 MVC 설정 전체를 상속해 갈아엎지 않고 정해진 자리에 일부만 얹게 해주는 확장 콜백이었다. 요청 파이프라인 위에서 각 메서드가 어디에 끼는지로 구조를 다시 본 기록이다."
+description: "WebMvcConfigurer는 왜 인터페이스인가. MVC 설정을 통째로 갈아엎지 않고 정해진 자리에 일부만 얹는 확장 콜백이었다."
 tags: ["스프링", "Spring MVC", "WebMvcConfigurer", "DispatcherServlet", "우테코"]
 ---
 
